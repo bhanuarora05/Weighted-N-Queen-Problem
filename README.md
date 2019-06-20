@@ -7,5 +7,8 @@ You are helping the LA Dept of Transportation (LADOT) to develop apilot scooter 
 •Activity points are collected at each time step t when officers are in same square as scooters. One point per each scooter. 
 •The grid coordinate system will be indexed starting from the top-left corner.
 
-Input: The file input.txt in the current directory of your program will be formatted as follows: First line: strictly positive 32-bit integer n, the width and height of the nx ncity area, n<= 15.Second line: strictly positive 32-bit integer p, the number of police officersThird line: strictly positive 32-bit integer s, the number of scootersNext s*12lines: the list of scooter x,y coordinatesover time, separated with the End-of-line character LF.  With sscooters and 12 timestepsin a day, this results in 12 coordinatesper scooter.
-Output: Max activity points:strictly positive 32-bit integer m
+# Input: 
+The file input.txt in the current directory of your program will be formatted as follows: First line: strictly positive 32-bit integer n, the width and height of the nx ncity area, n<= 15.Second line: strictly positive 32-bit integer p, the number of police officersThird line: strictly positive 32-bit integer s, the number of scootersNext s*12lines: the list of scooter x,y coordinatesover time, separated with the End-of-line character LF.  With sscooters and 12 timestepsin a day, this results in 12 coordinatesper scooter.
+
+# Output: 
+Max activity points:strictly positive 32-bit integer m
